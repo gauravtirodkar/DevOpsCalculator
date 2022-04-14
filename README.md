@@ -1,2 +1,1 @@
-# CalculatorDevops
-# SPE MINI PROJECT
+# DevOpsCalculator
