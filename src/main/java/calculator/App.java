@@ -81,7 +81,7 @@ public class App {
 		System.out.println("");
 		System.out.println("The Square Root is "+c);
 		System.out.println("");
-		logger.info("SQUARE ROOT : INPUT -> " + num +" OUTPUT -> " + c);
+		logger.info("SQUARE ROOT");
 		return c;
 	}
 
@@ -97,7 +97,7 @@ public class App {
 		System.out.println("");
 		System.out.println("The Factorial is "+c);
 		System.out.println("");
-		logger.info(" FACTORIAL : INPUT -> " + num +" OUTPUT -> " + c);
+		logger.info("FACTORIAL");
 		return c;
 	}
 	public static double naturalLog(double num){
@@ -110,7 +110,7 @@ public class App {
 		System.out.println("");
 		System.out.println("The Logarithm is "+ c);
 		System.out.println("");
-		logger.info("LOGARITHM : INPUT -> " + num +" OUTPUT -> " + c);
+		logger.info("LOGARITHM");
 		return c;
 	}
 	  public static double power(double num, double exp){
@@ -118,7 +118,7 @@ public class App {
 		System.out.println("");
 		System.out.println("The Raised to power is "+ c);
 		System.out.println("");
-		logger.info("RAISE TO : INPUT -> " + num +" OUTPUT -> " + c);
+		logger.info("RAISE TO");
 		return c;
 	}
 
