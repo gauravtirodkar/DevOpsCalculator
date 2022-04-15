@@ -34,7 +34,7 @@ public class App {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						num = reader.nextDouble();
-						squareRoot(num);
+						find_square_root(num);
 					break;
 
 					case 2: //Factorial
@@ -42,7 +42,7 @@ public class App {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						numm = reader.nextInt();
-						factorial(numm);
+						find_factorial(numm);
 					break;
 
 					case 3: //Natural Log
@@ -50,7 +50,7 @@ public class App {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						num = reader.nextDouble();
-						naturalLog(num);
+						find_naturalLog(num);
 					break;
 
 					case 4: //Power
@@ -60,7 +60,7 @@ public class App {
 						num = reader.nextDouble();
 						System.out.print("Answer : ");
 						exp = reader.nextDouble();
-						power(num,exp);
+						find_power(num,exp);
 					break;
 
 					default: 
@@ -71,7 +71,7 @@ public class App {
 		    }while(flag == 0);
 		}
 
-	public static double squareRoot(double num){
+	public static double find_square_root(double num){
 		if(num <=0){
 			System.out.println("Enter a positive number");
 			logger.info("Error in Square Root function");
@@ -85,7 +85,7 @@ public class App {
 		return c;
 	}
 
-	public static int factorial(int num){
+	public static int find_factorial(int num){
 	    int c = num ;
 		if(c == 0) return 1;
 		if(num <=0){
@@ -100,7 +100,7 @@ public class App {
 		logger.info("FACTORIAL");
 		return c;
 	}
-	public static double naturalLog(double num){
+	public static double find_naturalLog(double num){
 		if(num <=0){
 			System.out.println("Enter a positive number");
 			logger.info("Error in log function");
@@ -113,7 +113,7 @@ public class App {
 		logger.info("LOGARITHM");
 		return c;
 	}
-	  public static double power(double num, double exp){
+	  public static double find_power(double num, double exp){
 		double c = Math.pow(num,exp);
 		System.out.println("");
 		System.out.println("The Raised to power is "+ c);
