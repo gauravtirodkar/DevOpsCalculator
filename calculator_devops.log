@@ -1,0 +1,4 @@
+17/Apr/2022:07:35:40 408 [App.java] [INFO] calculator.App - SQUARE ROOT
+17/Apr/2022:07:35:42 565 [App.java] [INFO] calculator.App - FACTORIAL
+17/Apr/2022:07:35:45 896 [App.java] [INFO] calculator.App - LOGARITHM
+17/Apr/2022:07:36:03 608 [App.java] [INFO] calculator.App - Error in Square Root function
