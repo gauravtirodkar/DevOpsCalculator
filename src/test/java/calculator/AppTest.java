@@ -37,8 +37,8 @@ public class AppTest {
 	@Test
 	    public void test_find_power() {
 	        double a = 5.0;
-			double b = 2.0;
-	        double expectedResult = 32.0;
+		double b = 2.0;
+	        double expectedResult = 25.0;
 	        double result = App.find_power(a,b);
 	        Assert.assertEquals(expectedResult, result, 0.0f);
 	    }
