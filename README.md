@@ -1,2 +1,2 @@
-# DevOpsCalculator
+# DevOps Calculator
 # SPE Project
